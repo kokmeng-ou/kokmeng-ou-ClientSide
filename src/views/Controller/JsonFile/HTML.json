@@ -1,0 +1,280 @@
+[
+    {
+        "name": "Headings",
+        "toggle": "toggleOne",
+        "tags": [
+          {
+            "tag": "h1",
+            "startTag": "<h1>",
+            "endTag": "</h1>"
+          },
+          {
+            "tag": "h2",
+            "startTag": "<h2>",
+            "endTag": "</h2>"
+          },
+          {
+            "tag": "h3",
+            "startTag": "<h3>",
+            "endTag": "</h3>"
+          },
+          {
+            "tag": "h4",
+            "startTag": "<h4>",
+            "endTag": "</h4>"
+          },
+          {
+            "tag": "h5",
+            "startTag": "<h5>",
+            "endTag": "</h5>"
+          },
+          {
+            "tag": "h6",
+            "startTag": "<h6>",
+            "endTag": "</h6>"
+          }
+        ]
+    },
+    {
+        "name": "Paragraphs",
+        "toggle": "toggleTwo",
+        "tags": [
+          {
+            "tag": "p",
+            "startTag": "<p>",
+            "endTag": "</p>"
+          },
+          {
+            "tag": "div",
+            "startTag": "<div>",
+            "endTag": "</div>"
+          },
+          {
+            "tag": "span",
+            "startTag": "<span>",
+            "endTag": "</span>"
+          },
+          {
+            "tag": "em",
+            "startTag": "<em>",
+            "endTag": "</em>"
+          },
+          {
+            "tag": "strong",
+            "startTag": "<strong>",
+            "endTag": "</strong>"
+          },
+          {
+            "tag": "blockquote",
+            "startTag": "<blockquote>",
+            "endTag": "</blockquote>"
+          }
+        ]
+      },
+      {
+        "name": "Text Formatting",
+        "toggle": "toggleThree",
+        "tags": [
+          {
+            "tag": "b",
+            "startTag": "<b>",
+            "endTag": "</b>"
+          },
+          {
+            "tag": "i",
+            "startTag": "<i>",
+            "endTag": "</i>"
+          },
+          {
+            "tag": "u",
+            "startTag": "<u>",
+            "endTag": "</u>"
+          },
+          {
+            "tag": "strong",
+            "startTag": "<strong>",
+            "endTag": "</strong>"
+          },
+          {
+            "tag": "em",
+            "startTag": "<em>",
+            "endTag": "</em>"
+          },
+          {
+            "tag": "strike",
+            "startTag": "<strike>",
+            "endTag": "</strike>"
+          },
+          {
+            "tag": "sup",
+            "startTag": "<sup>",
+            "endTag": "</sup>"
+          },
+          {
+            "tag": "sub",
+            "startTag": "<sub>",
+            "endTag": "</sub>"
+          }
+        ]
+      },
+      {
+        "name": "Quotation and Citation",
+        "toggle": "toggleFour",
+        "tags": [
+          {
+            "tag": "blockquote",
+            "startTag": "<blockquote>",
+            "endTag": "</blockquote>"
+          },
+          {
+            "tag": "q",
+            "startTag": "<q>",
+            "endTag": "</q>"
+          },
+          {
+            "tag": "cite",
+            "startTag": "<cite>",
+            "endTag": "</cite>"
+          }
+        ]
+      },
+      {
+        "name": "Links",
+        "toggle": "toggleFive",
+        "tags": [
+          {
+            "tag": "a",
+            "startTag": "<a href=''>",
+            "endTag": "</a>"
+          }
+        ]
+      },
+      {
+        "name": "Images",
+        "toggle": "toggleSix",
+        "tags": [
+          {
+            "tag": "img",
+            "startTag": "<img src='' alt=''/>",
+            "endTag": ""
+          }
+        ]
+      },
+      {
+        "name": "Tables",
+        "toggle": "toggleSeven",
+        "tags": [
+          {
+            "tag": "table",
+            "startTag": "<table>",
+            "endTag": "</table>"
+          },
+          {
+            "tag": "tr",
+            "startTag": "<tr>",
+            "endTag": "</tr>"
+          },
+          {
+            "tag": "th",
+            "startTag": "<th>",
+            "endTag": "</th>"
+          },
+          {
+            "tag": "td",
+            "startTag": "<td>",
+            "endTag": "</td>"
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "toggle": "toggleNine",
+        "tags": [
+          {
+            "tag": "ul",
+            "startTag": "<ul>",
+            "endTag": "</ul>"
+          },
+          {
+            "tag": "ol",
+            "startTag": "<ol>",
+            "endTag": "</ol>"
+          },
+          {
+            "tag": "li",
+            "startTag": "<li>",
+            "endTag": "</li>"
+          }
+        ]
+      },
+      {
+        "name": "Iframes",
+        "toggle": "toggleTen",
+        "tags": [
+          {
+            "tag": "iframe",
+            "startTag": "<iframe>",
+            "endTag": "</iframe>"
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "toggle": "toggleEleven",
+        "tags": [
+          {
+            "tag": "form",
+            "startTag": "<form>",
+            "endTag": "</form>"
+          },
+          {
+            "tag": "input",
+            "startTag": "<input>",
+            "endTag": ""
+          },
+          {
+            "tag": "select",
+            "startTag": "<select>",
+            "endTag": "</select>"
+          },
+          {
+            "tag": "option",
+            "startTag": "<option>",
+            "endTag": "</option>"
+          },
+          {
+            "tag": "textarea",
+            "startTag": "<textarea>",
+            "endTag": "</textarea>"
+          },
+          {
+            "tag": "button",
+            "startTag": "<button>",
+            "endTag": "</button>"
+          },
+          {
+            "tag": "label",
+            "startTag": "<label>",
+            "endTag": "</label>"
+          }
+        ],
+        "inputTypes": [
+          "text",
+          "password",
+          "email",
+          "number",
+          "checkbox",
+          "radio",
+          "submit",
+          "reset",
+          "date",
+          "file",
+          "hidden",
+          "image",
+          "url",
+          "tel",
+          "search"
+        ]
+      }
+      
+]

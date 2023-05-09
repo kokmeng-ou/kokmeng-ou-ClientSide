@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body{
+            position: relative;
+        }
+        @media screen and (min-width: 900px){
+            .background{
+                position:absolute;
+                width: 100%;
+                height: 485.85px;
+                top: 200.71px;
+                overflow: hidden;
+                background: linear-gradient(245.29deg, #6DC1DC 13.32%, #A690FC 21.04%, rgba(252, 150, 187, 0.38) 55.55%, #FFC397 84.12%);
+                filter: blur(180px);
+                transform: rotate(340deg);
+                z-index: -1000;
+            }
+            .backgroundtwo{
+                position: absolute;
+                width: 100%;
+                height: 485.85px;
+                top: 1321.42px;
+                overflow: hidden;
+                background: linear-gradient(245.29deg, #6DC1DC 13.32%, #A690FC 28.55%, #FC96BB 73.55%, #F7D3BA 84.12%);
+                filter: blur(182px);
+                transform: rotate(166deg);
+                z-index: -1000;
+            }
+            .animationloop{
+                position: relative;
+                animation-name: left;
+                animation-duration: 9s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes left {
+                0%   {left:0px; top:0px;}
+                50%  { left:200px; top:0px;}
+                75%  { left:0px; top:0px;}
+            }
+        }
+    </style>
+</head>
+<body class="container mt-5 bg-light-blue">
+    <div class="background"></div>
+    <div>
+        <button type="button" class="btn btn-primary shadow animationloop">Primary</button>
+        <button type="button" class="btn btn-blue fw-bold bg-gradient">btn-blue</button>
+        <button type="button" class="btn btn-primary bg-gradient">bg-gradient</button>
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-green bg-gradient fw-bold bg-gradient" >Success</button>
+        
+        <p class="text-blue mt-5 fw-bold fs-2">.text-blue</p>
+        <p class="text-green mt-5 fw-bold fs-2">.text-green</p>
+        <p class="text-purple mt-5 fw-bold fs-2">.text-purple</p>
+    </div>
+    <div class="backgroundtwo">
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>

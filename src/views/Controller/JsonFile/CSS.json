@@ -1,0 +1,1865 @@
+[
+	{
+		"name": "Animation",
+		"property": [
+			{
+				"name": "animation-name",
+				"value": ["example1", "example2", "example3"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "animation-duration",
+				"value": ["0s", "1s", "2s", "3s"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "animation-timing-function",
+				"value": ["ease", "linear", "ease-in", "ease-out", "ease-in-out"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "animation-delay",
+				"value": ["0s", "1s", "2s", "3s"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "animation-iteration-count",
+				"value": ["infinite", "1", "2", "3"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "animation-direction",
+				"value": ["normal", "reverse", "alternate", "alternate-reverse"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "animation-fill-mode",
+				"value": ["none", "forwards", "backwards", "both"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "animation-play-state",
+				"value": ["running", "paused"],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "Background",
+		"property": [
+			{
+				"name": "background-color",
+				"value": ["#ffffff", "#000000", "rgba(255, 0, 0, 0.5)"],
+				"checked": false,
+				"color": true
+			},
+			{
+				"name": "background-image",
+				"value": ["url('image.jpg')", "linear-gradient(to right, #ff0000, #00ff00)"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "background-repeat",
+				"value": ["repeat", "repeat-x", "repeat-y", "no-repeat"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "background-position",
+				"value": [
+					"top left",
+					"top center",
+					"top right",
+					"center left",
+					"center center",
+					"center right",
+					"bottom left",
+					"bottom center",
+					"bottom right"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "background-size",
+				"value": ["auto", "cover", "contain", "100px", "50%", "200px 100px"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "background-attachment",
+				"value": ["scroll", "fixed", "local"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "background-origin",
+				"value": ["padding-box", "border-box", "content-box"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "background-clip",
+				"value": ["border-box", "padding-box", "content-box"],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "Border",
+		"property": [
+			{
+				"name": "border-width",
+				"value": ["thin", "medium", "thick", "1px", "2px", "3px", "4px"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "border-style",
+				"value": ["none", "solid", "dotted", "dashed", "double", "groove", "ridge", "inset", "outset"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "border-color",
+				"value": ["#ffffff", "#000000", "rgba(255, 0, 0, 0.5)"],
+				"checked": false,
+				"color": true
+			},
+			{
+				"name": "border-radius",
+				"value": ["0", "5px", "10px", "50%", "5px 10px", "15px 20px 25px 30px"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "border-image-source",
+				"value": ["url('border-image.png')", "none"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "border-image-slice",
+				"value": ["fill", "2", "2%", "2 3", "2% 3%", "2 3 4", "2% 3% 4%"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "border-image-width",
+				"value": ["auto", "1px", "2px", "3px", "1px 2px", "1px 2px 3px", "1px 2px 3px 4px"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "border-image-outset",
+				"value": ["0", "1px", "2px", "3px", "1px 2px", "1px 2px 3px", "1px 2px 3px 4px"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "border-image-repeat",
+				"value": ["stretch", "repeat", "round", "space"],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "Box-Shadow",
+		"property": [
+			{
+				"name": "box-shadow",
+				"value": [
+					"none",
+					"inset 0 0 0 5px rgba(0, 0, 0, 0.5)",
+					"0 0 5px rgba(0, 0, 0, 0.5)",
+					"5px 5px 5px rgba(0, 0, 0, 0.5)",
+					"-5px -5px 5px rgba(0, 0, 0, 0.5)",
+					"5px 5px 5px rgba(0, 0, 0, 0.5), -5px -5px 5px rgba(0, 0, 0, 0.5)"
+				],
+				"checked": false,
+				"color": true
+			},
+			{
+				"name": "box-shadow-x-offset",
+				"value": ["-20px", "-10px", "0", "10px", "20px"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "box-shadow-y-offset",
+				"value": ["-20px", "-10px", "0", "10px", "20px"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "box-shadow-blur-radius",
+				"value": ["0", "1px", "5px", "10px", "20px"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "box-shadow-spread-radius",
+				"value": ["0", "1px", "5px", "10px", "20px"],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "box-shadow-color",
+				"value": ["#ffffff", "#000000", "rgba(255, 0, 0, 0.5)"],
+				"checked": false,
+				"color": true
+			}
+		]
+	},
+	{
+		"name": "Clear",
+		"property": [
+			{
+				"name": "clear",
+				"value": [
+					"none",
+					"left",
+					"right",
+					"both",
+					"initial",
+					"inherit"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "Color",
+		"property": [
+			{
+				"name": "color",
+				"value": [
+					"#000000",
+					"#FFFFFF",
+					"#FF0000",
+					"#00FF00",
+					"#0000FF",
+					"rgb(255, 0, 0)",
+					"rgb(0, 255, 0)",
+					"rgb(0, 0, 255)",
+					"hsl(0, 100%, 50%)",
+					"hsl(120, 100%, 50%)",
+					"hsl(240, 100%, 50%)",
+					"transparent",
+					"currentColor",
+					"initial",
+					"inherit"
+				],
+				"checked": false,
+				"color": true
+			}
+		]
+	},
+		{
+		"name": "Cursor",
+		"property": [
+			{
+				"name": "cursor",
+				"value": [
+					"auto",
+					"default",
+					"none",
+					"help",
+					"pointer",
+					"progress",
+					"wait",
+					"cell",
+					"context-menu",
+					"alias",
+					"copy",
+					"move",
+					"no-drop",
+					"not-allowed",
+					"grab",
+					"grabbing",
+					"all-scroll",
+					"col-resize",
+					"row-resize",
+					"n-resize",
+					"e-resize",
+					"s-resize",
+					"w-resize",
+					"ne-resize",
+					"nw-resize",
+					"se-resize",
+					"sw-resize",
+					"ew-resize",
+					"ns-resize",
+					"nesw-resize",
+					"nwse-resize",
+					"zoom-in",
+					"zoom-out",
+					"initial",
+					"inherit"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+		{
+		"name": "Display",
+		"property": [
+			{
+				"name": "display",
+				"value": [
+					"block",
+					"inline",
+					"inline-block",
+					"flex",
+					"inline-flex",
+					"grid",
+					"inline-grid",
+					"table",
+					"table-cell",
+					"table-row",
+					"none",
+					"initial",
+					"inherit",
+					"list-item",
+					"run-in",
+					"table-caption",
+					"table-column",
+					"table-column-group",
+					"table-footer-group",
+					"table-header-group",
+					"table-row-group",
+					"ruby",
+					"ruby-base",
+					"ruby-text",
+					"ruby-base-container",
+					"ruby-text-container",
+					"contents",
+					"inline-table",
+					"block-inline",
+					"flex-inline",
+					"grid-inline",
+					"table-inline",
+					"table-row-inline",
+					"run-in-inline",
+					"ruby-inline",
+					"ruby-base-inline",
+					"ruby-text-inline",
+					"ruby-base-container-inline",
+					"ruby-text-container-inline",
+					"none-legacy",
+					"inline-list-item"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "Flexbox",
+		"property": [
+			{
+				"name": "display",
+				"value": [
+					"flex",
+					"inline-flex",
+					"grid",
+					"inline-grid",
+					"none",
+					"initial",
+					"inherit"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex-direction",
+				"value": [
+					"row",
+					"row-reverse",
+					"column",
+					"column-reverse"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex-wrap",
+				"value": [
+					"nowrap",
+					"wrap",
+					"wrap-reverse"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex-flow",
+				"value": [
+					"row nowrap",
+					"row wrap",
+					"row wrap-reverse",
+					"row-reverse nowrap",
+					"row-reverse wrap",
+					"row-reverse wrap-reverse",
+					"column nowrap",
+					"column wrap",
+					"column wrap-reverse",
+					"column-reverse nowrap",
+					"column-reverse wrap",
+					"column-reverse wrap-reverse"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "justify-content",
+				"value": [
+					"flex-start",
+					"flex-end",
+					"center",
+					"space-between",
+					"space-around",
+					"space-evenly",
+					"start",
+					"end",
+					"left",
+					"right"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "align-items",
+				"value": [
+					"stretch",
+					"flex-start",
+					"flex-end",
+					"center",
+					"baseline",
+					"start",
+					"end",
+					"self-start",
+					"self-end"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "align-content",
+				"value": [
+					"stretch",
+					"flex-start",
+					"flex-end",
+					"center",
+					"space-between",
+					"space-around",
+					"space-evenly",
+					"start",
+					"end",
+					"baseline",
+					"first baseline",
+					"last baseline"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "align-self",
+				"value": [
+					"auto",
+					"stretch",
+					"flex-start",
+					"flex-end",
+					"center",
+					"baseline",
+					"start",
+					"end",
+					"self-start",
+					"self-end"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "order",
+				"value": [
+					"integer"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex",
+				"value": [
+					"none",
+					"auto",
+					"initial",
+					"1 1 auto",
+					"0 1 auto",
+					"1 0 auto",
+					"0 0 auto",
+					"none",
+					"initial",
+					"inherit"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "align-self",
+				"value": [
+					"auto",
+					"flex-start",
+					"flex-end",
+					"center",
+					"baseline",
+					"stretch",
+					"self-start",
+					"self-end",
+					"start",
+					"end"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "align-content",
+				"value": [
+					"stretch",
+					"flex-start",
+					"flex-end",
+					"center",
+					"space-between",
+					"space-around",
+					"space-evenly",
+					"start",
+					"end",
+					"baseline",
+					"first baseline",
+					"last baseline"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "align-items",
+				"value": [
+					"stretch",
+					"flex-start",
+					"flex-end",
+					"center",
+					"baseline",
+					"start",
+					"end",
+					"self-start",
+					"self-end"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "justify-content",
+				"value": [
+					"flex-start",
+					"flex-end",
+					"center",
+					"space-between",
+					"space-around",
+					"space-evenly",
+					"start",
+					"end",
+					"left",
+					"right"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex-flow",
+				"value": [
+					"row nowrap",
+					"row wrap",
+					"row wrap-reverse",
+					"row-reverse nowrap",
+					"row-reverse wrap",
+					"row-reverse wrap-reverse",
+					"column nowrap",
+					"column wrap",
+					"column wrap-reverse",
+					"column-reverse nowrap",
+					"column-reverse wrap",
+					"column-reverse wrap-reverse"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex-direction",
+				"value": [
+					"row",
+					"row-reverse",
+					"column",
+					"column-reverse"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex-grow",
+				"value": [
+					"0",
+					"1",
+					"2",
+					"3",
+					"4",
+					"5",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex-shrink",
+				"value": [
+					"0",
+					"1",
+					"2",
+					"3",
+					"4",
+					"5",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex-basis",
+				"value": [
+					"auto",
+					"content",
+					"fit-content",
+					"min-content",
+					"max-content",
+					"none",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "order",
+				"value": [
+					"initial",
+					"inherit",
+					"unset",
+					"1",
+					"2",
+					"3",
+					"4",
+					"5"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex-wrap",
+				"value": [
+					"nowrap",
+					"wrap-reverse",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex",
+				"value": [
+					"none",
+					"auto",
+					"initial",
+					"1 1 auto",
+					"0 1 auto",
+					"1 0 auto",
+					"0 0 auto",
+					"none",
+					"initial",
+					"inherit"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "align-self",
+				"value": [
+					"auto",
+					"flex-start",
+					"flex-end",
+					"center",
+					"baseline",
+					"stretch",
+					"self-start",
+					"self-end",
+					"start",
+					"end"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "align-content",
+				"value": [
+					"stretch",
+					"flex-start",
+					"flex-end",
+					"center",
+					"space-between",
+					"space-around",
+					"space-evenly",
+					"start",
+					"end",
+					"baseline",
+					"first baseline",
+					"last baseline"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "align-items",
+				"value": [
+					"stretch",
+					"flex-start",
+					"flex-end",
+					"center",
+					"baseline",
+					"start",
+					"end",
+					"self-start",
+					"self-end"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "justify-content",
+				"value": [
+					"flex-start",
+					"flex-end",
+					"center",
+					"space-between",
+					"space-around",
+					"space-evenly",
+					"start",
+					"end",
+					"left",
+					"right"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex-flow",
+				"value": [
+					"row nowrap",
+					"row wrap",
+					"row wrap-reverse",
+					"row-reverse nowrap",
+					"row-reverse wrap",
+					"row-reverse wrap-reverse",
+					"column nowrap",
+					"column wrap",
+					"column wrap-reverse",
+					"column-reverse nowrap",
+					"column-reverse wrap",
+					"column-reverse wrap-reverse"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex-direction",
+				"value": [
+					"row",
+					"row-reverse",
+					"column",
+					"column-reverse"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex-grow",
+				"value": [
+					"0",
+					"1",
+					"2",
+					"3",
+					"4",
+					"5",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex-shrink",
+				"value": [
+					"0",
+					"1",
+					"2",
+					"3",
+					"4",
+					"5",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex-basis",
+				"value": [
+					"auto",
+					"0",
+					"10%",
+					"50px",
+					"content",
+					"fit-content",
+					"max-content",
+					"min-content",
+					"available",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "order",
+				"value": [
+					"0",
+					"1",
+					"2",
+					"3",
+					"4",
+					"5",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "flex-wrap",
+				"value": [
+					"nowrap",
+					"wrap",
+					"wrap-reverse",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "gap",
+				"value": [
+					"normal",
+					"0",
+					"10px",
+					"1rem",
+					"2%",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "justify-items",
+				"value": [
+					"auto",
+					"normal",
+					"stretch",
+					"center",
+					"start",
+					"end",
+					"self-start",
+					"self-end",
+					"left",
+					"right",
+					"baseline",
+					"first baseline",
+					"last baseline",
+					"safe center",
+					"unsafe center",
+					"legacy right",
+					"legacy left",
+					"legacy center",
+					"legacy stretch"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "align-self",
+				"value": [
+					"auto",
+					"normal",
+					"stretch",
+					"flex-start",
+					"flex-end",
+					"center",
+					"baseline",
+					"first baseline",
+					"last baseline",
+					"safe center",
+					"unsafe center",
+					"legacy right",
+					"legacy left",
+					"legacy center",
+					"legacy stretch",
+					"self-start",
+					"self-end",
+					"start",
+					"end"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "float",
+		"property": [
+			{
+				"name": "float",
+				"value": [
+					"none",
+					"left",
+					"right",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "font",
+		"property": [
+			{
+				"name": "font-style",
+				"value": [
+					"normal",
+					"italic",
+					"oblique",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "font-variant",
+				"value": [
+					"normal",
+					"small-caps",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "font-weight",
+				"value": [
+					"normal",
+					"bold",
+					"bolder",
+					"lighter",
+					"100",
+					"200",
+					"300",
+					"400",
+					"500",
+					"600",
+					"700",
+					"800",
+					"900",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "font-size",
+				"value": [
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"xx-small",
+					"x-small",
+					"small",
+					"medium",
+					"large",
+					"x-large",
+					"xx-large",
+					"smaller",
+					"larger",
+					"length",
+					"percentage",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+					"color": false
+			},
+			{
+				"name": "font-family",
+				"value": [
+					"font-name1",
+					"font-name2",
+					"font-name3",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "grid",
+		"property": [
+			{
+				"name": "justify-content",
+				"value": [
+					"start",
+					"end",
+					"center",
+					"stretch",
+					"space-around",
+					"space-between",
+					"space-evenly",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "align-content",
+				"value": [
+					"start",
+					"end",
+					"center",
+					"stretch",
+					"space-around",
+					"space-between",
+					"space-evenly",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "grid-gap",
+				"value": [
+					"normal",
+					"length",
+					"percentage",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "grid-template",
+				"value": [
+					"none",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "grid",
+				"value": [
+					"none",
+					"auto",
+					"length",
+					"percentage",
+					"fr",
+					"minmax(min, max)",
+					"repeat(n, value)",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "height",
+		"property": [
+			{
+				"name": "height",
+				"value": [
+					"auto",
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "max-height",
+				"value": [
+					"none",
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "min-height",
+				"value": [
+					"auto",
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "width",
+		"property": [
+			{
+				"name": "width",
+				"value": [
+					"auto",
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "max-width",
+				"value": [
+					"none",
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "min-width",
+				"value": [
+					"auto",
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "margin",
+		"property": [
+			{
+				"name": "margin-top",
+				"value": [
+					"auto",
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "margin-right",
+				"value": [
+					"auto",
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "margin-bottom",
+				"value": [
+					"auto",
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "margin-left",
+				"value": [
+					"auto",
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "margin",
+				"value": [
+					"auto",
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "padding",
+		"property": [
+			{
+				"name": "padding-top",
+				"value": [
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "padding-right",
+				"value": [
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "padding-bottom",
+				"value": [
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "padding-left",
+				"value": [
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "padding",
+				"value": [
+					"0px",
+					"5px",
+					"10px",
+					"15px",
+					"20px",
+					"25px",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "overflow",
+		"property": [
+			{
+				"name": "overflow-x",
+				"value": [
+					"visible",
+					"hidden",
+					"scroll",
+					"auto",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "overflow-y",
+				"value": [
+					"visible",
+					"hidden",
+					"scroll",
+					"auto",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "overflow",
+				"value": [
+					"visible",
+					"hidden",
+					"scroll",
+					"auto",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "position",
+		"property": [
+			{
+				"name": "position",
+				"value": [
+					"static",
+					"relative",
+					"absolute",
+					"fixed",
+					"sticky",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "top",
+				"value": [
+					"auto",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "right",
+				"value": [
+					"auto",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "bottom",
+				"value": [
+					"auto",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "left",
+				"value": [
+					"auto",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "z-index",
+				"value": [
+					"auto",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+	"name": "text",
+	"property": [
+			{
+				"name": "color",
+				"value": [
+					"currentColor",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": true
+			},
+			{
+				"name": "font-size",
+				"value": [
+					"xx-small",
+					"x-small",
+					"small",
+					"medium",
+					"large",
+					"x-large",
+					"xx-large",
+					"smaller",
+					"larger",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "font-family",
+				"value": [
+					"serif",
+					"sans-serif",
+					"monospace",
+					"cursive",
+					"fantasy",
+					"system-ui",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "font-weight",
+				"value": [
+					"normal",
+					"bold",
+					"bolder",
+					"lighter",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "text-align",
+				"value": [
+					"left",
+					"right",
+					"center",
+					"justify",
+					 "initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "text-decoration",
+				"value": [
+					"none",
+					"underline",
+					"overline",
+					"line-through",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "text-transform",
+				"value": [
+					"none",
+					"capitalize",
+					"uppercase",
+					"lowercase",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "line-height",
+				"value": [
+					"normal",
+					"number",
+					"length",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "letter-spacing",
+				"value": [
+					"normal",
+					"length",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "word-spacing",
+				"value": [
+					"normal",
+					"length",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "text-shadow",
+				"value": [
+					"none",
+					"color length length length",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": true
+			},
+			{
+				"name": "text-overflow",
+				"value": [
+					"clip",
+					"ellipsis",
+					"string",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "white-space",
+				"value": [
+					"normal",
+					"nowrap",
+					"pre",
+					"pre-wrap",
+					"pre-line",
+					"break-spaces",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "word-break",
+				"value": [
+					"normal",
+					"break-all",
+					"keep-all",
+					"break-word",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "word-wrap",
+				"value": [
+					"normal",
+					"break-word",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "transition",
+		"property": [
+			{
+				"name": "transition-property",
+				"value": [
+					"all",
+					"property-name",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "transition-duration",
+				"value": [
+					"5s",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "transition-timing-function",
+				"value": [
+					"ease",
+					"linear",
+					"ease-in",
+					"ease-out",
+					"ease-in-out",
+					"step-start",
+					"step-end",
+					"cubic-bezier(n, n, n, n)",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			},
+			{
+				"name": "transition-delay",
+				"value": [
+					"time",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "visibility",
+		"property": [
+			{
+				"name": "visibility",
+				"value": [
+					"visible",
+					"hidden",
+					"collapse",
+					"initial",
+					"inherit",
+					"unset"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	},
+	{
+		"name": "z-index",
+		"property": [
+			{
+				"name": "z-index",
+				"value": [
+					"auto",
+					"inherit",
+					"unset",
+					"integer",
+					"initial",
+					"revert",
+					"sticky"
+				],
+				"checked": false,
+				"color": false
+			}
+		]
+	}
+]

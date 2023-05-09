@@ -1,0 +1,65 @@
+
+      for (let i = 0; i < this.StoreCSS.length; i++) {
+        const storeCSSElement = this.StoreCSS[i]
+        const newValueNameTag = newValue.nameTag
+        if (storeCSSElement.nameTag.elementTag === newValueNameTag.elementTag &&
+          storeCSSElement.nameTag.classTag === newValueNameTag.classTag) {
+          for (let j = 0; j < storeCSSElement.property.length; j++) {
+            const storeCSSProperty = storeCSSElement.property[j]
+            const newValueProperty = newValue.property
+            for (let z = 0; z < newValueProperty.length; z++) {
+              const storeCSSPropertyText = storeCSSProperty.propertyText
+              const storeCSSOptionText = storeCSSProperty.optionText
+              const newValuePropertyText = newValueProperty[z].propertyText
+              const newValueOptionText = newValueProperty[z].optionText
+              if (storeCSSPropertyText !== newValuePropertyText &&
+                storeCSSOptionText !== newValueOptionText) {
+                const prepare = {
+                  propertyText: newValuePropertyText,
+                  optionText: newValueOptionText
+                }
+                storeCSSElement.property.push(prepare)
+                console.log('Testing Two: Pass')
+                break
+              } else if (storeCSSPropertyText === newValuePropertyText &&
+                storeCSSOptionText !== newValueOptionText) {
+                storeCSSProperty.optionText = newValueOptionText
+                console.log('Testing One: Pass')
+                break
+              }
+            }
+          }
+          this.handleCSSObject()
+          this.handleOutput()
+          console.log(this.StoreCSS)
+          localStorage.setItem('cssData', JSON.stringify(this.StoreCSS))
+          console.log('Working One')
+          return
+        }
+      }
+
+
+
+
+              for (let index = 0; index < this.StoreCSS.length; index++) {
+          for (let K = 0; K < this.StoreCSS[index].property.length; K++) {
+            if (this.StoreCSS[index].property.propertyText === duplicateProperty.propertyText) {
+              
+            } else {
+              
+            }
+          }
+        }
+
+
+
+
+
+                  if (this.StoreCSS[index].property[K].propertyText !== duplicateProperty) {
+            const prepare = {
+              propertyText: duplicateProperty,
+              optionText: duplicateOption
+            }
+            this.StoreCSS[index].property.push(prepare)
+            break
+          }
